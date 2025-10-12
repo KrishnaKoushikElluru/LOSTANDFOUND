@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtualenv
+.venv/
+venv/
+
+# Databases and vector stores
+lost_and_found.db
+oauth.db
+chroma_db/
+chroma_db_backup*/
+*.sqlite3
+
+# Uploads and local data
+uploads/
+data/
+data_1/
+sync_log.txt
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Debug scripts
+debug_*.py
+bash.exe.stackdump
+bilstm_lookback_results.csv
