@@ -1,5 +1,5 @@
 // LostNFound - Main JavaScript
-const API_ROOT = "http://127.0.0.1:8000";
+const API_ROOT = "https://lostnfound-backend.loca.lt";
 
 // Theme Management
 function initTheme() {
