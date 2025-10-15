@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Simple entry point for deployment services that might look for main.py
+Entry point for deployment (Render/Railway/Vercel-compatible)
 """
 import os
 import uvicorn
-from src.api import app
+from main import app  # ← import from your backend/main.py
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
